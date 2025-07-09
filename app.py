@@ -2,7 +2,7 @@ from flask import Flask
 app = Flask(__name__)
 
 @app.route("/thaivu")
-def hello():
+def hellothaivu():
     return "Hello, whitehat PoC!"
 
 @app.route("/")
