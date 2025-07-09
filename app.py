@@ -1,6 +1,6 @@
 from flask import Flask
 app = Flask(__name__)
 
-@app.route("/")
+@app.route("/thaivu")
 def hello():
-    return "Hello, f3rgustran PoC!"
+    return "Hello, whitehat PoC!"
