@@ -10,7 +10,7 @@ def helloltidi():
     return "Hello, ltidi PoC!"
 
 @app.route("/pt200")
-def helloltidi():
+def hellopt200():
     return "Hello, whitehat PoC!"
 
 @app.route("/")
