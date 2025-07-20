@@ -5,6 +5,10 @@ app = Flask(__name__)
 def hellothaivu():
     return "Hello, whitehat PoC!"
 
+@app.route("/ltidi")
+def helloltidi():
+    return "Hello, whitehat PoC!"
+
 @app.route("/")
 def hello():
     return "Hello, whitehat PoC!"
