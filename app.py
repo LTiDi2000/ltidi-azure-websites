@@ -7,6 +7,10 @@ def hellothaivu():
 
 @app.route("/ltidi")
 def helloltidi():
+    return "Hello, ltidi PoC!"
+
+@app.route("/pt200")
+def helloltidi():
     return "Hello, whitehat PoC!"
 
 @app.route("/")
