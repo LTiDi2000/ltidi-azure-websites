@@ -19,4 +19,4 @@ def helloflysec():
 
 @app.route("/")
 def hello():
-    return "Hello, whitehatt PoC!"
+    return "Hello, whitehat PoC!"
