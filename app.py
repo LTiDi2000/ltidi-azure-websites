@@ -11,7 +11,7 @@ def helloltidi():
 
 @app.route("/ltidixss.html")
 def helloltidixss():
-    return "<html><script>alert(document.cookies)</script><html>"
+    return "<html><script>alert(document.cookie)</script><html>"
 
 @app.route("/pt200")
 def hellopt200():
