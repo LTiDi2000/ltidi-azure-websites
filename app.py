@@ -9,6 +9,10 @@ def hellothaivu():
 def helloltidi():
     return "Hello, ltidi PoC!"
 
+@app.route("/ltidixss.html")
+def helloltidixss():
+    return "<html><script>alert(document.cookies)</script><html>"
+
 @app.route("/pt200")
 def hellopt200():
     return "Hello, pt200 PoC!"
