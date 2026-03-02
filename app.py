@@ -17,6 +17,6 @@ def hellopt200():
 def helloflysec():
     return "Hello, flysec PoC!"
 
-@app.route("/")
+@app.route("/llttdd")
 def hello():
     return "Hello, whitehat PoC!"
