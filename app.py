@@ -22,7 +22,7 @@ def helloflysec():
     return "Hello, flysec PoC!"
 
 @app.route("/Dashboard/FallDetection")
-def helloflysec():
+def helloatt():
     return "Hello, flysec PoC!"
 
 @app.route("/llttdd")
