@@ -21,7 +21,7 @@ def hellopt200():
 def helloflysec():
     return "Hello, flysec PoC!"
 
-@app.route("/dashboard/falldetection")
+@app.route("/Dashboard/FallDetection")
 def helloattiot():
     return "Hello, flysec PoC!"
 
