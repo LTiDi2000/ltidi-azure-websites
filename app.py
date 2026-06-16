@@ -21,10 +21,10 @@ def hellopt200():
 def helloflysec():
     return "Hello, flysec PoC!"
 
-@app.route("/Dashboard/FallDetection")
+@app.route("/dashboard/falldetection")
 def helloattiot():
     return "Hello, flysec PoC!"
 
-@app.route("/llttdd")
+@app.route("/llttddd")
 def hello():
     return "Hello, whitehat PoC!"
